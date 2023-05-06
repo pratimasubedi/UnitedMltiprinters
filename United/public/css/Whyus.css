@@ -1,0 +1,61 @@
+body {
+    font-size: 19px;
+ 
+    line-height: 30px;
+    
+    font-family: 'Frank-Light';
+    font-weight: normal;
+    
+}
+h2 {
+    font-size: 48px;
+    line-height: 55px;
+    font-weight: normal;
+    font-family: 'Frank-Thin';
+    text-align: center;
+    color: #4D1C89;
+    padding-top:5%;
+}
+h4{
+	 font-weight: normal;
+    font-family: 'Frank-Thin';
+   
+    color: #4D1C89;
+}
+p{
+	font-weight: normal;
+    font-family: 'Frank-Thin';
+    
+}
+.whyus-wrapper h2{
+	text-align: center;
+	padding:10% 0; 
+}
+
+.whyus-sectionwrapper {
+	text-align: center;
+	background-color:#f1e8fc ;
+}
+
+.whyus-sectionwrapper h2{
+	padding:10% 0 5%  0;
+}
+
+.whyus-sectionwrapper h4{
+	padding:0 0 5%  0;
+}
+
+.why-par-section{
+	height:780px;
+	width: 100%;
+}
+
+.why-par-section img {
+    height: 35%;
+    width: 100%;
+    object-fit: cover;
+}
+.why-par-section p {
+   padding-top:7%;
+       text-align: justify;
+}

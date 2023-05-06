@@ -1,0 +1,47 @@
+.infra-wrapper{
+	text-align: center;
+        margin-top:5%;
+}
+.infra-wrapper p{
+    padding-bottom:5%;
+}
+.collapsible {
+    background-color: #4D1C89;
+    color: white;
+    cursor: pointer;
+    padding: 22px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+.collapsible:hover {
+  background-color: #98CD2C;
+}
+
+.content {
+    padding-left:  18px;
+    padding-right:18px;
+    display: none;
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 5%;
+    margin-top: -25px;
+    padding-top: 51px;
+}
+
+button.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.collapsible.active:after {
+    content: "\2212";
+}
+
+

@@ -1,0 +1,115 @@
+/*contact*/
+
+/* .contact-section {
+ 
+    background-color: #EDEFF7;
+   
+     box-shadow: 0 4px 8px 0;
+} */
+
+	.contact-section {
+	background: linear-gradient(-45deg, #4D1C89, #4D1C89, #98CD2C, #98CD2C );
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.pf-title {
+	float: left;
+	width: 100%;
+
+	font-family: Open Sans;
+	font-size: 14px;
+	    color: #fff;
+}
+.pf-field {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.pf-field > input, .pf-field > textarea {
+	float:left;
+	width:100%;
+	border: 2px dotted #fff;
+	border-radius: 8px;
+	padding: 12px 45px 12px 15px;
+	background: #ffffff;
+	font-family: Open Sans;
+	font-size: 13px;
+	color: #101010;
+	line-height: 24px;
+}
+.pf-field > i {
+	position: absolute;
+	right: 20px;
+	top:8;
+	font-size:20px;
+	color: #fff;
+	line-height:48px;
+}
+
+
+
+.contact-text h3{
+	font-size:20px;
+	padding-left:40px;
+	padding-bottom:13px;
+	padding-top: 5%;
+	color: #fff;
+	
+}
+
+.contact-text{
+
+	padding: 46px 0;
+	border:3px dotted #fff;
+	margin-top: 14%;
+	    margin-bottom: 18%;
+	    text-align: center;
+	        color: #fff;
+}
+
+
+.contact-text ul>li{
+	padding-bottom:5px;
+	display:block;
+}
+
+.contact-text ul>li>i{
+	/* color:#4C1C8A; */
+	padding-right:20px;
+	padding-top:10px;
+}
+.contact-logo img {
+  transition: transform 1s;
+  border-radius: 67%;
+}
+
+.main:hover .contact-logo img {
+  transform: rotate(360deg);
+}
+
+.contact-logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+       margin: -116px auto 0;
+    background: #fff;
+    border: 18px solid #98CD2C;
+ 
+   
+  
+}
+
+/*end contact*/
